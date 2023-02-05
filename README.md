@@ -1,6 +1,13 @@
 # Headstarter-Bot
 Documentation on the Headstarter Discord Bot
 
+## Contents
+  - [Commands Available](#Commands-Available)
+  - [Video Demo](#Video-Demo)
+  - [Examples](#Examples)
+  - [How it Works](#How-It-Works)
+
+
 ## Commands Available
   - `/resume_score` : See how well your resume matches with different job positions, allows you to quantify your resume and be able to track how changes to your resume affects how well you match different jobs
 
@@ -30,3 +37,6 @@ https://user-images.githubusercontent.com/43652410/216802677-96efff71-6241-465b-
   
   - `/tailor_resume` 
 <img width="616" alt="Screenshot 2023-02-04 at 11 59 21 PM" src="https://user-images.githubusercontent.com/43652410/216802593-808953f2-1bde-4f9e-9c3d-f64da77b2e87.png">
+
+
+## How it Works
