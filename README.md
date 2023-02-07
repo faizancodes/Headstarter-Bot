@@ -64,7 +64,8 @@ https://user-images.githubusercontent.com/43652410/216802677-96efff71-6241-465b-
     When the bot extracts all the text from your resume, it is fed to the NLP models to classify what job position text matches to. 
     The output of the NLP models is an array of values which represent the probability of the resume text matching to a specific job from the list above, and the array of values sum to 100. So when using the `/resume_score` command, you see the top 5 job positions you match to and your corresponding match scores. 
 
-    - **Match Scores above 65 can be considered a good match and means that your resume is well suited towards that particular job.** Anything less than a value of 50 means your resume needs significant improvement. Using the other commands such as `/improve_resume` and `/tailor_resume` can be used to reach a match score above 65. 
+    - **Match Scores above 65 can be considered a good match and means that your resume is well suited towards that particular job.** 
+    - **Anything less than a value of 50 means your resume needs significant improvement. Using the other commands such as `/improve_resume` and `/tailor_resume` can be used to reach a match score above 65.** 
     
     - The true utility of this command is shown when used several times after implementing changes to your resume. After every change you make to your resume, this command can be used to quantify any improvements - it can be used as a tool to see how much your resume actually improved.  
     
