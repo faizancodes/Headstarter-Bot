@@ -75,3 +75,5 @@ https://user-images.githubusercontent.com/43652410/216802677-96efff71-6241-465b-
       - **You should aim to have a `Resume Match Score` of over 200, anything less than a match score of 150 means your resume does not match well with the job**. 
       
       - The `Keyword Similarity Score` is calculated solely on the keywords extracted from your resume and the job description. The keywords from your resume and job description are compared and using an NLP word similarity algorithm, and the score is summed to represent how similar the keywords are overall.  
+      
+        - **You should aim to have a `Keyword Similarity Score` of over 100, anything less than a match score of 75 means your resume does not have the right keywords for the job
