@@ -11,13 +11,13 @@ Documentation on the Headstarter Discord Bot
 ## Commands Available
   - `/resume_score` : See how well your resume matches with different job positions, allows you to quantify your resume and be able to track how changes to your resume affects how well you match different jobs
 
-  - `/job-match` : See how well your resume matches with a specified job description, this command compares the contents of your resume to the contents of a job description and calculates a match score based on the similarities in the text 
+  - `/job_match` : See how well your resume matches with a specified job description, this command compares the contents of your resume to the contents of a job description and calculates a match score based on the similarities in the text 
 
-  - `/improve-resume` : This command suggests improved bullet points that you can put on your resume, based on the job position you are aiming for and the experiences you have on your resume  
+  - `/improve_resume` : This command suggests improved bullet points that you can put on your resume, based on the job position you are aiming for and the experiences you have on your resume  
 
-  - `/tailor-resume` : This command ouputs a set of tailored bullet points that you can add to your resume, based on the job description you input
+  - `/tailor_resume` : This command ouputs a set of tailored bullet points that you can add to your resume, based on the job description you input
 
-  - `/generate-cover-letter` : This command generates a cover letter for a specified job position based on the experiences on your resume 
+  - `/generate_cover_letter` : This command generates a cover letter for a specified job position based on the experiences on your resume 
   
 ## Video Demo
 https://user-images.githubusercontent.com/43652410/216802677-96efff71-6241-465b-b8ab-ec25524e0554.mp4
@@ -44,7 +44,7 @@ https://user-images.githubusercontent.com/43652410/216802677-96efff71-6241-465b-
 
 ## How it Works
   
-  - `/resume_score`
+  - ## `/resume_score`
   
     - This bot utilizes ensembles of NLP models I trained on 4000+ different tech jobs to be able to accurately match resumes to specific job positions. 
       These job positions include:
@@ -67,3 +67,11 @@ https://user-images.githubusercontent.com/43652410/216802677-96efff71-6241-465b-
     - **Match Scores above 65 can be considered a good match and means that your resume is well suited towards that particular job.** Anything less than a value of 50 means your resume needs significant improvement. Using the other commands such as `/improve_resume` and `/tailor_resume` can be used to reach a match score above 65. 
     
     - The true utility of this command is shown when used several times after implementing changes to your resume. After every change you make to your resume, this command can be used to quantify any improvements - it can be used as a tool to see how much your resume actually improved.  
+    
+  - ## `/job_match`
+  
+      - This command feeds the text from the job description provided to the same NLP models used to rate your resume from the `/resume_score` command. It compares the match scores of the top 4 jobs to the match scores of the top 4 jobs on your resume and calculates a score based on the similarities. The number to represent the similarity is outputted by the Bot as the `Resume Match Score`.
+      
+      - **You should aim to have a `Resume Match Score` of over 200, anything less than a match score of 150 means your resume does not match well with the job**. 
+      
+      - The `Keyword Similarity Score` is calculated solely on the keywords extracted from your resume and the job description. The keywords from your resume and job description are compared and using an NLP word similarity algorithm, and the score is summed to represent how similar the keywords are overall.  
