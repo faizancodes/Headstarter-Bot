@@ -1,6 +1,10 @@
 # Headstarter-Bot
 Documentation on the Headstarter Discord Bot
 
+Servers this Bot is in:
+- [Headstarter Discord](https://discord.gg/FfVzjjfJZF)
+- [SJU ACM Discord](https://discord.gg/8m7C9PgBQE)
+
 ## Contents
   - [Commands Available](#Commands-Available)
   - [Video Demo](#Video-Demo)
